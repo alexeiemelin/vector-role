@@ -1,6 +1,6 @@
 ---
 # tasks file for vector-role
-name: Install Vector
+- name: Install Vector
   hosts: vector
   tasks:
     - name: Get Vector distrib
